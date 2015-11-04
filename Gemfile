@@ -22,6 +22,7 @@ gem 'uglifier'
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails'
 
+# 以下がないと，しかもバージョンが1.8じゃないとサーバーでhomeやHelpにアクセスした時にエラーがでる
 gem 'coffee-script-source', '1.8.0'
 
 # See https://github.com/rails/execjs#readme for more supported runtimes
